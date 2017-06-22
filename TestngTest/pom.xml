@@ -59,6 +59,10 @@
           <suiteXmlFiles>
             <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
           </suiteXmlFiles>
+          
+          <systemPropertyVariables>
+                        <output>${output}</output>
+          </systemPropertyVariables>
         </configuration>
 </plugin>
 
